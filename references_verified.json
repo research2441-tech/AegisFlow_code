@@ -1,0 +1,1022 @@
+[
+ {
+  "id": 1,
+  "theme": "A",
+  "citation": "N. Moustafa and J. Slay, \"UNSW-NB15: A comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set),\" in Proc. Military Commun. Inf. Syst. Conf. (MilCIS), Nov. 2015, pp. 1-6.",
+  "doi": "10.1109/MilCIS.2015.7348942",
+  "url": "https://api.crossref.org/works/10.1109/MilCIS.2015.7348942",
+  "status": "VERIFIED",
+  "year": 2015,
+  "summary": "Introduces the UNSW-NB15 data set, generated with the IXIA PerfectStorm tool as a mix of real modern normal traffic and synthetic attack traffic covering nine attack families. Flow and packet features are extracted with Argus, Bro-IDS and purpose-built algorithms, and labels are provided per record."
+ },
+ {
+  "id": 2,
+  "theme": "A",
+  "citation": "N. Moustafa and J. Slay, \"The evaluation of network anomaly detection systems: Statistical analysis of the UNSW-NB15 data set and the comparison with the KDD99 data set,\" Inf. Secur. J.: Global Perspective, vol. 25, no. 1-3, pp. 18-31, 2016.",
+  "doi": "10.1080/19393555.2015.1125974",
+  "url": "https://api.crossref.org/works/10.1080/19393555.2015.1125974",
+  "status": "VERIFIED",
+  "year": 2016,
+  "summary": "Statistically analyses the UNSW-NB15 training and testing partitions (feature distributions and correlations) and compares them with KDD99. The authors evaluate several classifiers and report that UNSW-NB15 is more complex than KDD99, so detection accuracy on it is lower."
+ },
+ {
+  "id": 3,
+  "theme": "A",
+  "citation": "A. Alsaedi, N. Moustafa, Z. Tari, A. Mahmood, and A. Anwar, \"TON_IoT telemetry dataset: A new generation dataset of IoT and IIoT for data-driven intrusion detection systems,\" IEEE Access, vol. 8, pp. 165130-165150, 2020.",
+  "doi": "10.1109/ACCESS.2020.3022862",
+  "url": "https://api.crossref.org/works/10.1109/ACCESS.2020.3022862",
+  "status": "VERIFIED",
+  "year": 2020,
+  "summary": "Presents the telemetry part of TON_IoT, recorded from IoT/IIoT sensors on a realistic testbed under normal operation and multiple attack scenarios. Several machine-learning and deep-learning detectors are benchmarked on it."
+ },
+ {
+  "id": 4,
+  "theme": "A",
+  "citation": "N. Moustafa, \"A new distributed architecture for evaluating AI-based security systems at the edge: Network TON_IoT datasets,\" Sustain. Cities Soc., vol. 72, Art. no. 102994, Sep. 2021.",
+  "doi": "10.1016/j.scs.2021.102994",
+  "url": "https://api.crossref.org/works/10.1016/j.scs.2021.102994",
+  "status": "VERIFIED",
+  "year": 2021,
+  "summary": "Describes the distributed edge/fog/cloud testbed used to collect the network portion of TON_IoT, with labelled benign traffic and attack categories. The network data sets are evaluated with a range of AI-based detectors."
+ },
+ {
+  "id": 5,
+  "theme": "A",
+  "citation": "I. Sharafaldin, A. H. Lashkari, and A. A. Ghorbani, \"Toward generating a new intrusion detection dataset and intrusion traffic characterization,\" in Proc. 4th Int. Conf. Inf. Syst. Secur. Privacy (ICISSP), 2018, pp. 108-116.",
+  "doi": "10.5220/0006639801080116",
+  "url": "https://api.crossref.org/works/10.5220/0006639801080116",
+  "status": "VERIFIED",
+  "year": 2018,
+  "summary": "Introduces CIC-IDS2017, which combines profiled benign background traffic with common attacks (brute force, DoS/DDoS, web attacks, infiltration, botnet, port scan) captured over five days. Flow features are extracted with CICFlowMeter, and the paper analyses which features matter for each attack."
+ },
+ {
+  "id": 6,
+  "theme": "A",
+  "citation": "R. Sommer and V. Paxson, \"Outside the closed world: On using machine learning for network intrusion detection,\" in Proc. IEEE Symp. Secur. Privacy (S&P), 2010, pp. 305-316.",
+  "doi": "10.1109/SP.2010.25",
+  "url": "https://api.crossref.org/works/10.1109/SP.2010.25",
+  "status": "VERIFIED",
+  "year": 2010,
+  "summary": "Argues that anomaly detection in networks is harder than typical ML tasks because errors are costly, traffic is very diverse, there is a semantic gap between alarms and actionable meaning, and sound evaluation is difficult. Offers guidelines for using ML in network intrusion detection more soundly."
+ },
+ {
+  "id": 7,
+  "theme": "A",
+  "citation": "D. Arp et al., \"Dos and don'ts of machine learning in computer security,\" in Proc. 31st USENIX Secur. Symp., Boston, MA, USA, Aug. 2022.",
+  "doi": "none",
+  "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2022,
+  "summary": "Identifies ten recurring pitfalls in how security ML systems are designed and evaluated, including sampling bias, data snooping, label inaccuracy and inappropriate baselines. Based on a review of 30 papers from top security venues plus experiments showing how the pitfalls inflate results, it gives concrete recommendations."
+ },
+ {
+  "id": 8,
+  "theme": "A",
+  "citation": "G. Engelen, V. Rimmer, and W. Joosen, \"Troubleshooting an intrusion detection dataset: The CICIDS2017 case study,\" in Proc. IEEE Secur. Privacy Workshops (SPW), May 2021, pp. 7-12.",
+  "doi": "10.1109/SPW53761.2021.00009",
+  "url": "https://api.crossref.org/works/10.1109/SPW53761.2021.00009",
+  "status": "VERIFIED",
+  "year": 2021,
+  "summary": "Examines how CIC-IDS2017 was generated and processed with CICFlowMeter, and documents errors in flow construction, feature extraction and labelling. The authors release a corrected version and show that these artefacts can change reported detection results."
+ },
+ {
+  "id": 9,
+  "theme": "A",
+  "citation": "M. Sarhan, S. Layeghy, and M. Portmann, \"Towards a standard feature set for network intrusion detection system datasets,\" Mobile Netw. Appl., vol. 27, no. 1, pp. 357-370, 2022.",
+  "doi": "10.1007/s11036-021-01843-0",
+  "url": "https://api.crossref.org/works/10.1007/s11036-021-01843-0",
+  "status": "VERIFIED",
+  "year": 2022,
+  "summary": "Proposes a standard NetFlow-based feature set for NIDS data sets and re-derives several benchmarks in this common format (e.g., NetFlow versions of UNSW-NB15, ToN-IoT, BoT-IoT and CSE-CIC-IDS2018). This allows cross-data-set comparison and transfer evaluation."
+ },
+ {
+  "id": 10,
+  "theme": "A",
+  "citation": "Y. Mirsky, T. Doitshman, Y. Elovici, and A. Shabtai, \"Kitsune: An ensemble of autoencoders for online network intrusion detection,\" in Proc. Netw. Distrib. Syst. Secur. Symp. (NDSS), San Diego, CA, USA, Feb. 2018.",
+  "doi": "10.14722/ndss.2018.23204",
+  "url": "https://api.crossref.org/works/10.14722/ndss.2018.23204",
+  "status": "VERIFIED",
+  "year": 2018,
+  "summary": "Proposes Kitsune, a plug-and-play online unsupervised NIDS that incrementally computes damped-window traffic statistics and scores packets with an ensemble of small autoencoders (KitNET). The system is lightweight enough to run on a Raspberry Pi."
+ },
+ {
+  "id": 11,
+  "theme": "A",
+  "citation": "G. Apruzzese, P. Laskov, and J. Schneider, \"SoK: Pragmatic assessment of machine learning for network intrusion detection,\" in Proc. IEEE 8th Eur. Symp. Secur. Privacy (EuroS&P), Jul. 2023, pp. 592-614.",
+  "doi": "10.1109/EuroSP57164.2023.00042",
+  "url": "https://api.crossref.org/works/10.1109/EuroSP57164.2023.00042",
+  "status": "VERIFIED",
+  "year": 2023,
+  "summary": "Systematises ML-based NIDS research from an operational standpoint and examines why reported results often do not carry over to real deployments. Experiments on several public data sets assess practical factors such as cost and evaluation design."
+ },
+ {
+  "id": 12,
+  "theme": "B",
+  "citation": "X. Lin, G. Xiong, G. Gou, Z. Li, J. Shi, and J. Yu, \"ET-BERT: A contextualized datagram representation with pre-training transformers for encrypted traffic classification,\" in Proc. ACM Web Conf. (WWW), Apr. 2022, pp. 633-642.",
+  "doi": "10.1145/3485447.3512217",
+  "url": "https://api.crossref.org/works/10.1145/3485447.3512217",
+  "status": "VERIFIED",
+  "year": 2022,
+  "summary": "Pre-trains a BERT-style Transformer on large unlabelled encrypted traffic with Masked BURST Model and Same-origin BURST Prediction objectives, then fine-tunes it on labelled tasks. Reports state-of-the-art results on several encrypted-traffic classification benchmarks."
+ },
+ {
+  "id": 13,
+  "theme": "B",
+  "citation": "R. Zhao et al., \"Yet another traffic classifier: A masked autoencoder based traffic transformer with multi-level flow representation,\" in Proc. AAAI Conf. Artif. Intell., vol. 37, no. 4, Jun. 2023, pp. 5420-5427.",
+  "doi": "10.1609/aaai.v37i4.25674",
+  "url": "https://api.crossref.org/works/10.1609/aaai.v37i4.25674",
+  "status": "VERIFIED",
+  "year": 2023,
+  "summary": "Proposes YaTC, which represents a flow as a multi-level flow representation matrix of packet header and payload bytes. A masked-autoencoder Transformer with packet-level and flow-level attention is pre-trained on unlabelled traffic and then fine-tuned for classification."
+ },
+ {
+  "id": 14,
+  "theme": "B",
+  "citation": "T. Wang, X. Xie, W. Wang, C. Wang, Y. Zhao, and Y. Cui, \"NetMamba: Efficient network traffic classification via pre-training unidirectional Mamba,\" in Proc. IEEE 32nd Int. Conf. Netw. Protocols (ICNP), Oct. 2024, pp. 1-11.",
+  "doi": "10.1109/ICNP61940.2024.10858569",
+  "url": "https://api.crossref.org/works/10.1109/ICNP61940.2024.10858569",
+  "status": "VERIFIED",
+  "year": 2024,
+  "summary": "Replaces Transformer encoders in traffic classification with a unidirectional Mamba (selective state-space) backbone, pre-trained with masked reconstruction on a stride-based traffic representation. Reports competitive accuracy with faster inference and lower memory use than Transformer baselines."
+ },
+ {
+  "id": 15,
+  "theme": "B",
+  "citation": "G. Zhou, X. Guo, Z. Liu, T. Li, Q. Li, and K. Xu, \"TrafficFormer: An efficient pre-trained model for traffic data,\" in Proc. IEEE Symp. Secur. Privacy (S&P), May 2025, pp. 1844-1860.",
+  "doi": "10.1109/SP61157.2025.00102",
+  "url": "https://api.crossref.org/works/10.1109/SP61157.2025.00102",
+  "status": "VERIFIED",
+  "year": 2025,
+  "summary": "Proposes a pre-trained model for network traffic with a fine-grained pre-training task that captures relationships among packets of a flow, plus a field-randomisation augmentation used during fine-tuning. Reports gains over earlier pre-trained traffic models on traffic classification and protocol-understanding tasks."
+ },
+ {
+  "id": 16,
+  "theme": "B",
+  "citation": "R. Vinayakumar, M. Alazab, K. P. Soman, P. Poornachandran, A. Al-Nemrat, and S. Venkatraman, \"Deep learning approach for intelligent intrusion detection system,\" IEEE Access, vol. 7, pp. 41525-41550, 2019.",
+  "doi": "10.1109/ACCESS.2019.2895334",
+  "url": "https://api.crossref.org/works/10.1109/ACCESS.2019.2895334",
+  "status": "VERIFIED",
+  "year": 2019,
+  "summary": "Benchmarks deep neural networks against classical classifiers for network- and host-based intrusion detection on several public data sets (including KDDCup99, NSL-KDD, UNSW-NB15 and CIC-IDS2017). Proposes a scalable hybrid DNN framework for real-time monitoring."
+ },
+ {
+  "id": 17,
+  "theme": "C",
+  "citation": "W. W. Lo, S. Layeghy, M. Sarhan, M. Gallagher, and M. Portmann, \"E-GraphSAGE: A graph neural network based intrusion detection system for IoT,\" in Proc. IEEE/IFIP Netw. Oper. Manage. Symp. (NOMS), Apr. 2022, pp. 1-9.",
+  "doi": "10.1109/NOMS54207.2022.9789878",
+  "url": "https://api.crossref.org/works/10.1109/NOMS54207.2022.9789878",
+  "status": "VERIFIED",
+  "year": 2022,
+  "summary": "Models flow records as edges between endpoint nodes and extends GraphSAGE to aggregate edge features, so flows are classified as edges. Evaluated on NetFlow-based IoT NIDS data sets with strong edge-classification results."
+ },
+ {
+  "id": 18,
+  "theme": "C",
+  "citation": "E. Caville, W. W. Lo, S. Layeghy, and M. Portmann, \"Anomal-E: A self-supervised network intrusion detection system based on graph neural networks,\" Knowl.-Based Syst., vol. 258, Art. no. 110030, Dec. 2022.",
+  "doi": "10.1016/j.knosys.2022.110030",
+  "url": "https://api.crossref.org/works/10.1016/j.knosys.2022.110030",
+  "status": "VERIFIED",
+  "year": 2022,
+  "summary": "Learns edge (flow) embeddings with a self-supervised, edge-aware GNN objective and no labels, then applies standard anomaly detectors to the embeddings. On two modern NetFlow NIDS benchmarks the embeddings beat raw features for detection."
+ },
+ {
+  "id": 19,
+  "theme": "C",
+  "citation": "I. J. King and H. H. Huang, \"Euler: Detecting network lateral movement via scalable temporal link prediction,\" ACM Trans. Privacy Secur., vol. 26, no. 3, pp. 1-36, Jun. 2023.",
+  "doi": "10.1145/3588771",
+  "url": "https://api.crossref.org/works/10.1145/3588771",
+  "status": "VERIFIED",
+  "year": 2023,
+  "summary": "Journal version of the NDSS 2022 Euler framework (DOI 10.14722/ndss.2022.24107). It combines per-snapshot GNN encoders with a recurrent temporal model for link prediction on host-communication graphs, and flags unlikely edges as lateral movement. The design scales by distributing snapshots across workers."
+ },
+ {
+  "id": 20,
+  "theme": "C",
+  "citation": "T. Bilot, N. El Madhoun, K. Al Agha, and A. Zouaoui, \"Graph neural networks for intrusion detection: A survey,\" IEEE Access, vol. 11, pp. 49114-49139, 2023.",
+  "doi": "10.1109/ACCESS.2023.3275789",
+  "url": "https://api.crossref.org/works/10.1109/ACCESS.2023.3275789",
+  "status": "VERIFIED",
+  "year": 2023,
+  "summary": "Surveys GNN-based intrusion detection across network-flow and host/provenance settings, organised by graph construction, model families and data sets. Discusses open challenges, including robustness and realistic evaluation."
+ },
+ {
+  "id": 21,
+  "theme": "C",
+  "citation": "M. Zhong, M. Lin, C. Zhang, and Z. Xu, \"A survey on graph neural networks for intrusion detection systems: Methods, trends and challenges,\" Comput. Secur., vol. 141, Art. no. 103821, Jun. 2024.",
+  "doi": "10.1016/j.cose.2024.103821",
+  "url": "https://api.crossref.org/works/10.1016/j.cose.2024.103821",
+  "status": "VERIFIED",
+  "year": 2024,
+  "summary": "Reviews GNN-based IDS methods by graph type and learning paradigm. Summarises trends, data sets and evaluation practice, and outlines challenges such as dynamic graphs, scalability and interpretability."
+ },
+ {
+  "id": 22,
+  "theme": "C",
+  "citation": "G. Duan, H. Lv, H. Wang, and G. Feng, \"Application of a dynamic line graph neural network for intrusion detection with semisupervised learning,\" IEEE Trans. Inf. Forensics Secur., vol. 18, pp. 699-714, 2023.",
+  "doi": "10.1109/TIFS.2022.3228493",
+  "url": "https://api.crossref.org/works/10.1109/TIFS.2022.3228493",
+  "status": "VERIFIED",
+  "year": 2023,
+  "summary": "Builds a sequence of time-sliced communication graphs and converts each to a line graph, so flows become nodes. Spatial-temporal features are learned with a dynamic GNN under semi-supervised training, giving flow-level detection with few labels."
+ },
+ {
+  "id": 23,
+  "theme": "C",
+  "citation": "W. W. Lo, G. Kulatilleke, M. Sarhan, S. Layeghy, and M. Portmann, \"XG-BoT: An explainable deep graph neural network for botnet detection and forensics,\" Internet Things, vol. 22, Art. no. 100747, Jul. 2023.",
+  "doi": "10.1016/j.iot.2023.100747",
+  "url": "https://api.crossref.org/works/10.1016/j.iot.2023.100747",
+  "status": "VERIFIED",
+  "year": 2023,
+  "summary": "Proposes a deep GNN that detects botnet nodes in large communication graphs and adds explanation methods that highlight suspicious nodes and edges for forensic analysis. Evaluated on botnet graph data sets."
+ },
+ {
+  "id": 24,
+  "theme": "C",
+  "citation": "C. Fu, Q. Li, and K. Xu, \"Detecting unknown encrypted malicious traffic in real time via flow interaction graph analysis,\" in Proc. Netw. Distrib. Syst. Secur. Symp. (NDSS), San Diego, CA, USA, Feb. 2023.",
+  "doi": "10.14722/ndss.2023.23080",
+  "url": "https://api.crossref.org/works/10.14722/ndss.2023.23080",
+  "status": "VERIFIED",
+  "year": 2023,
+  "summary": "Presents HyperVision, which builds a compact flow-interaction graph that aggregates short flows and retains long flows. It detects unknown, including encrypted, attack traffic in real time through unsupervised structural analysis of the graph, with no labelled attack data."
+ },
+ {
+  "id": 25,
+  "theme": "C",
+  "citation": "S. Goel, L. Govindaraj, and T. K. Murugan, \"HyperIDS: A hypergraph learning and quantum-inspired transformer ensemble framework for IoT intrusion detection,\" Front. Big Data, vol. 9, Art. no. 1901121, Sep. 2026.",
+  "doi": "10.3389/fdata.2026.1901121",
+  "url": "https://api.crossref.org/works/10.3389/fdata.2026.1901121",
+  "status": "VERIFIED",
+  "year": 2026,
+  "summary": "Converts selected IoT traffic features into a hypergraph to capture higher-order relations, encodes it with an HGNN followed by a Transformer encoder, and classifies with a stacked CatBoost/XGBoost ensemble with SHAP explanations. Evaluated on TON_IoT and Bot-IoT."
+ },
+ {
+  "id": 26,
+  "theme": "D",
+  "citation": "Y. Feng, H. You, Z. Zhang, R. Ji, and Y. Gao, \"Hypergraph neural networks,\" in Proc. AAAI Conf. Artif. Intell., vol. 33, no. 1, Jul. 2019, pp. 3558-3565.",
+  "doi": "10.1609/aaai.v33i01.33013558",
+  "url": "https://api.crossref.org/works/10.1609/aaai.v33i01.33013558",
+  "status": "VERIFIED",
+  "year": 2019,
+  "summary": "Introduces HGNN, a hyperedge convolution derived from a spectral approximation of the hypergraph Laplacian. It encodes high-order correlations and is evaluated on citation-network and visual object classification."
+ },
+ {
+  "id": 27,
+  "theme": "D",
+  "citation": "N. Yadati, M. Nimishakavi, P. Yadav, V. Nitin, A. Louis, and P. Talukdar, \"HyperGCN: A new method for training graph convolutional networks on hypergraphs,\" in Proc. Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 32, 2019, pp. 1511-1522.",
+  "doi": "none",
+  "url": "https://proceedings.neurips.cc/paper/2019/hash/1efa39bcaec6f3900149160693694536-Abstract.html",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2019,
+  "summary": "Trains GCNs on hypergraphs by approximating each hyperedge with a small set of pairwise edges chosen via the hypergraph Laplacian. Applied to semi-supervised node classification and to learning-based combinatorial optimisation on hypergraphs."
+ },
+ {
+  "id": 28,
+  "theme": "D",
+  "citation": "J. Jiang, Y. Wei, Y. Feng, J. Cao, and Y. Gao, \"Dynamic hypergraph neural networks,\" in Proc. 28th Int. Joint Conf. Artif. Intell. (IJCAI), Aug. 2019, pp. 2635-2641.",
+  "doi": "10.24963/ijcai.2019/366",
+  "url": "https://api.crossref.org/works/10.24963/ijcai.2019/366",
+  "status": "VERIFIED",
+  "year": 2019,
+  "summary": "Proposes DHGNN, which rebuilds the hypergraph at each layer from the current embeddings (k-NN and clustering) and then applies vertex and hyperedge convolutions. The hypergraph structure therefore adapts to the learned features."
+ },
+ {
+  "id": 29,
+  "theme": "D",
+  "citation": "J. Huang and J. Yang, \"UniGNN: A unified framework for graph and hypergraph neural networks,\" in Proc. 30th Int. Joint Conf. Artif. Intell. (IJCAI), Aug. 2021, pp. 2563-2569.",
+  "doi": "10.24963/ijcai.2021/353",
+  "url": "https://api.crossref.org/works/10.24963/ijcai.2021/353",
+  "status": "VERIFIED",
+  "year": 2021,
+  "summary": "Provides a two-stage vertex-to-hyperedge-to-vertex message-passing framework that generalises GCN, GAT, GIN and GCNII to hypergraphs. Also studies deeper hypergraph models that resist over-smoothing."
+ },
+ {
+  "id": 30,
+  "theme": "D",
+  "citation": "E. Chien, C. Pan, J. Peng, and O. Milenkovic, \"You are AllSet: A multiset function framework for hypergraph neural networks,\" in Proc. Int. Conf. Learn. Represent. (ICLR), 2022.",
+  "doi": "none",
+  "url": "https://iclr.cc/virtual/2022/poster/6302",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2022,
+  "summary": "Shows that many hypergraph neural networks can be written as compositions of two multiset functions (node-to-hyperedge and hyperedge-to-node). These functions are learned with Deep Sets or Set Transformer modules, and the resulting AllSet models perform strongly across benchmarks."
+ },
+ {
+  "id": 31,
+  "theme": "D",
+  "citation": "Y. Gao, Y. Feng, S. Ji, and R. Ji, \"HGNN+: General hypergraph neural networks,\" IEEE Trans. Pattern Anal. Mach. Intell., vol. 45, no. 3, pp. 3181-3199, Mar. 2023.",
+  "doi": "10.1109/TPAMI.2022.3182052",
+  "url": "https://api.crossref.org/works/10.1109/TPAMI.2022.3182052",
+  "status": "VERIFIED",
+  "year": 2023,
+  "summary": "Extends HGNN with hyperedge groups that model multi-modal and multi-type correlations, and with a two-stage spatial hypergraph convolution. The DHG toolbox is released alongside."
+ },
+ {
+  "id": 32,
+  "theme": "D",
+  "citation": "A. Antelmi, G. Cordasco, M. Polato, V. Scarano, C. Spagnuolo, and D. Yang, \"A survey on hypergraph representation learning,\" ACM Comput. Surv., vol. 56, no. 1, pp. 1-38, 2023.",
+  "doi": "10.1145/3605776",
+  "url": "https://api.crossref.org/works/10.1145/3605776",
+  "status": "VERIFIED",
+  "year": 2023,
+  "summary": "Surveys hypergraph representation learning, covering spectral, random-walk, matrix-factorisation and neural approaches. Discusses applications and open problems."
+ },
+ {
+  "id": 33,
+  "theme": "D",
+  "citation": "P. Wang, S. Yang, Y. Liu, Z. Wang, and P. Li, \"Equivariant hypergraph diffusion neural operators,\" in Proc. Int. Conf. Learn. Represent. (ICLR), 2023.",
+  "doi": "none",
+  "url": "https://mlanthology.org/iclr/2023/wang2023iclr-equivariant",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2023,
+  "summary": "Proposes ED-HNN, inspired by hypergraph diffusion and proven able to approximate any continuous equivariant hypergraph diffusion operator. Implemented efficiently via star expansion, it outperforms baselines on nine node-classification data sets, especially heterophilic ones."
+ },
+ {
+  "id": 34,
+  "theme": "D",
+  "citation": "A. Behrouz, F. Hashemi, S. Sadeghian, and M. Seltzer, \"CAT-Walk: Inductive hypergraph learning via set walks,\" in Proc. Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 36, 2023.",
+  "doi": "none",
+  "url": "https://papers.neurips.cc/paper_files/paper/2023/hash/6739d8df16b5bce3587ca5f18662a6aa-Abstract-Conference.html",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2023,
+  "summary": "Learns temporal hypergraph dynamics inductively with SetWalk, a higher-order temporal walk over hyperedges, combined with set-based anonymisation and a permutation-invariant SetMixer pooling. Reports strong temporal hyperedge prediction on 10 benchmarks."
+ },
+ {
+  "id": 35,
+  "theme": "D",
+  "citation": "D. Lee and K. Shin, \"I'm me, we're us, and I'm us: Tri-directional contrastive learning on hypergraphs,\" in Proc. AAAI Conf. Artif. Intell., vol. 37, no. 7, Jun. 2023, pp. 8456-8464.",
+  "doi": "10.1609/aaai.v37i7.26019",
+  "url": "https://api.crossref.org/works/10.1609/aaai.v37i7.26019",
+  "status": "VERIFIED",
+  "year": 2023,
+  "summary": "Proposes TriCL, a self-supervised hypergraph method that contrasts node, group (hyperedge) and node-group membership views across augmented hypergraphs. The learned representations are competitive with or better than semi-supervised hypergraph models."
+ },
+ {
+  "id": 36,
+  "theme": "E",
+  "citation": "J. Devlin, M.-W. Chang, K. Lee, and K. Toutanova, \"BERT: Pre-training of deep bidirectional transformers for language understanding,\" in Proc. Conf. North Amer. Chapter Assoc. Comput. Linguistics: Human Lang. Technol. (NAACL-HLT), 2019, pp. 4171-4186.",
+  "doi": "10.18653/v1/N19-1423",
+  "url": "https://api.crossref.org/works/10.18653/v1/N19-1423",
+  "status": "VERIFIED",
+  "year": 2019,
+  "summary": "Pre-trains a bidirectional Transformer encoder with masked language modelling and next-sentence prediction on unlabelled text, then fine-tunes it on downstream tasks. It set new results on many language-understanding benchmarks."
+ },
+ {
+  "id": 37,
+  "theme": "E",
+  "citation": "K. He, X. Chen, S. Xie, Y. Li, P. Dollár, and R. Girshick, \"Masked autoencoders are scalable vision learners,\" in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), Jun. 2022, pp. 15979-15988.",
+  "doi": "10.1109/CVPR52688.2022.01553",
+  "url": "https://api.crossref.org/works/10.1109/CVPR52688.2022.01553",
+  "status": "VERIFIED",
+  "year": 2022,
+  "summary": "Masks a high fraction of image patches (e.g., 75%), encodes only the visible patches, and reconstructs pixels with a lightweight decoder. This asymmetric design pre-trains efficiently and transfers well."
+ },
+ {
+  "id": 38,
+  "theme": "E",
+  "citation": "Z. Hou et al., \"GraphMAE: Self-supervised masked graph autoencoders,\" in Proc. 28th ACM SIGKDD Conf. Knowl. Discovery Data Mining (KDD), Aug. 2022, pp. 594-604.",
+  "doi": "10.1145/3534678.3539321",
+  "url": "https://api.crossref.org/works/10.1145/3534678.3539321",
+  "status": "VERIFIED",
+  "year": 2022,
+  "summary": "Reconstructs masked node features, rather than graph structure, with a GNN decoder, using re-mask decoding and a scaled cosine error. It matches or beats contrastive graph SSL methods on node and graph classification."
+ },
+ {
+  "id": 39,
+  "theme": "E",
+  "citation": "Z. Hou et al., \"GraphMAE2: A decoding-enhanced masked self-supervised graph learner,\" in Proc. ACM Web Conf. (WWW), Apr. 2023, pp. 737-746.",
+  "doi": "10.1145/3543507.3583379",
+  "url": "https://api.crossref.org/works/10.1145/3543507.3583379",
+  "status": "VERIFIED",
+  "year": 2023,
+  "summary": "Improves masked graph autoencoding with multi-view random re-mask decoding and latent representation prediction. These regularise feature reconstruction and improve robustness to noisy features and scalability."
+ },
+ {
+  "id": 40,
+  "theme": "E",
+  "citation": "H. Nguyen and R. Kashef, \"TS-IDS: Traffic-aware self-supervised learning for IoT network intrusion detection,\" Knowl.-Based Syst., vol. 279, Art. no. 110966, Nov. 2023.",
+  "doi": "10.1016/j.knosys.2023.110966",
+  "url": "https://api.crossref.org/works/10.1016/j.knosys.2023.110966",
+  "status": "VERIFIED",
+  "year": 2023,
+  "summary": "Models relations between network entities with a graph that uses both node and edge features, and adds an auxiliary property-based self-supervised task to improve graph representations when labels are scarce. Evaluated on NF-ToN-IoT and NF-BoT-IoT."
+ },
+ {
+  "id": 41,
+  "theme": "E",
+  "citation": "R. Xu, G. Wu, W. Wang, X. Gao, A. He, and Z. Zhang, \"Applying self-supervised learning to network intrusion detection for network flows with graph neural network,\" Comput. Netw., vol. 248, Art. no. 110495, Jun. 2024.",
+  "doi": "10.1016/j.comnet.2024.110495",
+  "url": "https://api.crossref.org/works/10.1016/j.comnet.2024.110495",
+  "status": "VERIFIED",
+  "year": 2024,
+  "summary": "Proposes an edge-centric graph-attention encoder trained with subgraph-level graph contrastive learning and a structured contrastive loss over edge features and local topology. Targets unsupervised multi-class flow classification on NetFlow data sets (NF-BoT-IoT, NF-CSE-CIC-IDS2018 and their v2 variants)."
+ },
+ {
+  "id": 42,
+  "theme": "E",
+  "citation": "L. Guerra, T. Chapuis, G. Duc, P. Mozharovskyi, and V.-T. Nguyen, \"Self-supervised learning of graph representations for network intrusion detection,\" in Proc. Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 38, 2025.",
+  "doi": "none",
+  "url": "https://neurips.cc/virtual/2025/poster/119847",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2025,
+  "summary": "Proposes GraphIDS: an inductive GNN embeds each flow with its local topological context, and a Transformer masked autoencoder reconstructs the embeddings, trained end-to-end on benign traffic. High reconstruction error flags intrusions; the authors report large PR-AUC and macro-F1 gains on NetFlow benchmarks (arXiv:2509.16625)."
+ },
+ {
+  "id": 43,
+  "theme": "E",
+  "citation": "J. Wilkie, H. Hindy, C. Tachtatzis, and R. Atkinson, \"Contrastive self-supervised network intrusion detection using augmented negative pairs,\" in Proc. IEEE Int. Conf. Cyber Secur. Resilience (CSR), Aug. 2025, pp. 206-213.",
+  "doi": "10.1109/CSR64739.2025.11129979",
+  "url": "https://api.crossref.org/works/10.1109/CSR64739.2025.11129979",
+  "status": "VERIFIED",
+  "year": 2025,
+  "summary": "Proposes CLAN, a contrastive scheme pre-trained on benign traffic that treats augmented samples as negatives (proxies for malicious distributions) and other benign samples as positives. On Lycos2017 it beats prior self-supervised and anomaly-detection methods in binary detection and in few-label multi-class fine-tuning."
+ },
+ {
+  "id": 44,
+  "theme": "F",
+  "citation": "A. Gu, K. Goel, and C. Ré, \"Efficiently modeling long sequences with structured state spaces,\" in Proc. Int. Conf. Learn. Represent. (ICLR), 2022.",
+  "doi": "none",
+  "url": "https://iclr.cc/virtual/2022/poster/6959",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2022,
+  "summary": "Introduces S4, which parameterises a linear state-space model with a structured (normal plus low-rank) state matrix so the convolution kernel can be computed efficiently. It handles very long-range dependencies, e.g., on the Long Range Arena benchmark."
+ },
+ {
+  "id": 45,
+  "theme": "F",
+  "citation": "A. Gu and T. Dao, \"Mamba: Linear-time sequence modeling with selective state spaces,\" in Proc. 1st Conf. Lang. Model. (COLM), 2024. [Online]. Available: arXiv:2312.00752",
+  "doi": "none",
+  "url": "https://arxiv.org/abs/2312.00752",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2024,
+  "summary": "Makes the SSM parameters input-dependent (selective), so the model can propagate or forget information by content, and implements this with a hardware-aware parallel scan. The resulting attention-free Mamba architecture scales linearly with sequence length and is competitive with Transformers across modalities. (Preprint 2023; venue COLM 2024 per the conference record; no DOI.)"
+ },
+ {
+  "id": 46,
+  "theme": "F",
+  "citation": "T. Dao and A. Gu, \"Transformers are SSMs: Generalized models and efficient algorithms through structured state space duality,\" in Proc. 41st Int. Conf. Mach. Learn. (ICML), PMLR vol. 235, 2024.",
+  "doi": "none",
+  "url": "https://proceedings.mlr.press/v235/dao24a.html",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2024,
+  "summary": "Develops the structured state-space duality (SSD) framework linking SSMs and variants of attention through structured semiseparable matrices. Derives the Mamba-2 architecture, which is faster to train than Mamba while remaining competitive with Transformers."
+ },
+ {
+  "id": 47,
+  "theme": "F",
+  "citation": "A. Behrouz and F. Hashemi, \"Graph Mamba: Towards learning on graphs with state space models,\" in Proc. 30th ACM SIGKDD Conf. Knowl. Discovery Data Mining (KDD), Aug. 2024, pp. 119-130.",
+  "doi": "10.1145/3637528.3672044",
+  "url": "https://api.openalex.org/works/doi:10.1145/3637528.3672044",
+  "status": "VERIFIED",
+  "year": 2024,
+  "summary": "Proposes Graph Mamba Networks, adapting selective state-space models to graphs through neighbourhood tokenisation, token ordering and a bidirectional selective SSM encoder. Reports competitive accuracy on long-range and general graph benchmarks at lower cost than graph Transformers."
+ },
+ {
+  "id": 48,
+  "theme": "F",
+  "citation": "Z. Ding, J. Zheng, and X. Wu, \"NIDS-Mamba: Lightweight network intrusion detection for IoT sensor networks via state space models,\" Sensors, vol. 26, no. 9, Art. no. 2766, Apr. 2026.",
+  "doi": "10.3390/s26092766",
+  "url": "https://api.crossref.org/works/10.3390/s26092766",
+  "status": "VERIFIED",
+  "year": 2026,
+  "summary": "Combines dynamic sparse attention with a lightweight selective state-space block to capture short-term anomalies and long-range attack patterns on resource-constrained IoT devices. Evaluated on NF-UNSW-NB15 and NF-CSE-CIC-IDS2018, including under severe class imbalance, with about 1.12 M parameters."
+ },
+ {
+  "id": 49,
+  "theme": "G",
+  "citation": "W. J. Scheirer, A. de Rezende Rocha, A. Sapkota, and T. E. Boult, \"Toward open set recognition,\" IEEE Trans. Pattern Anal. Mach. Intell., vol. 35, no. 7, pp. 1757-1772, Jul. 2013.",
+  "doi": "10.1109/TPAMI.2012.256",
+  "url": "https://api.crossref.org/works/10.1109/TPAMI.2012.256",
+  "status": "VERIFIED",
+  "year": 2013,
+  "summary": "Formalises open set recognition, where unknown classes appear at test time, and defines open space risk. Proposes the 1-vs-Set machine, which bounds the region of feature space each known class accepts."
+ },
+ {
+  "id": 50,
+  "theme": "G",
+  "citation": "A. Bendale and T. E. Boult, \"Towards open set deep networks,\" in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Jun. 2016, pp. 1563-1572.",
+  "doi": "10.1109/CVPR.2016.173",
+  "url": "https://api.crossref.org/works/10.1109/CVPR.2016.173",
+  "status": "VERIFIED",
+  "year": 2016,
+  "summary": "Proposes OpenMax, which fits per-class Weibull models (extreme value theory) to distances between penultimate activation vectors and class means. It recalibrates scores to estimate the probability of an unknown class, so deep networks can reject unknown inputs."
+ },
+ {
+  "id": 51,
+  "theme": "G",
+  "citation": "S. Vaze, K. Han, A. Vedaldi, and A. Zisserman, \"Open-set recognition: A good closed-set classifier is all you need,\" in Proc. Int. Conf. Learn. Represent. (ICLR), 2022.",
+  "doi": "none",
+  "url": "https://iclr.cc/virtual/2022/poster/6727",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2022,
+  "summary": "Shows that open-set recognition performance correlates strongly with closed-set accuracy, and that a well-trained baseline using maximum logit scores matches or beats specialised OSR methods. Introduces the Semantic Shift Benchmark."
+ },
+ {
+  "id": 52,
+  "theme": "G",
+  "citation": "W. Liu, X. Wang, J. D. Owens, and Y. Li, \"Energy-based out-of-distribution detection,\" in Proc. Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 33, 2020.",
+  "doi": "none",
+  "url": "https://mlanthology.org/neurips/2020/liu2020neurips-energybased",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2020,
+  "summary": "Uses the free energy of the logits (negative log-sum-exp) as an OOD score, either post hoc or with an energy-margin fine-tuning objective. It reduces false-positive rates compared with softmax confidence."
+ },
+ {
+  "id": 53,
+  "theme": "G",
+  "citation": "D. Hendrycks and K. Gimpel, \"A baseline for detecting misclassified and out-of-distribution examples in neural networks,\" in Proc. Int. Conf. Learn. Represent. (ICLR), 2017.",
+  "doi": "none",
+  "url": "https://mlanthology.org/iclr/2017/hendrycks2017iclr-baseline",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2017,
+  "summary": "Shows that the maximum softmax probability is a simple, effective baseline for detecting misclassified and out-of-distribution inputs across vision, NLP and speech tasks. Establishes evaluation protocols for the problem."
+ },
+ {
+  "id": 54,
+  "theme": "G",
+  "citation": "G. Chen, P. Peng, X. Wang, and Y. Tian, \"Adversarial reciprocal points learning for open set recognition,\" IEEE Trans. Pattern Anal. Mach. Intell., vol. 44, no. 11, pp. 8065-8081, Nov. 2022.",
+  "doi": "10.1109/TPAMI.2021.3106743",
+  "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109/TPAMI.2021.3106743",
+  "status": "VERIFIED",
+  "year": 2022,
+  "summary": "Learns reciprocal points that represent each class's extra-class space and adds an adversarial margin constraint to bound open space risk. An adversarial enhancement step generates confusing samples to improve separation of known and unknown classes."
+ },
+ {
+  "id": 55,
+  "theme": "G",
+  "citation": "H.-M. Yang, X.-Y. Zhang, F. Yin, and C.-L. Liu, \"Robust classification with convolutional prototype learning,\" in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), Jun. 2018, pp. 3474-3482.",
+  "doi": "10.1109/CVPR.2018.00366",
+  "url": "https://api.crossref.org/works/10.1109/CVPR.2018.00366",
+  "status": "VERIFIED",
+  "year": 2018,
+  "summary": "Replaces the softmax layer with learnable class prototypes and distance-based losses (including a prototype loss that tightens intra-class compactness). This gives robust classification and natural rejection of out-of-distribution inputs."
+ },
+ {
+  "id": 56,
+  "theme": "G",
+  "citation": "L. Yang et al., \"CADE: Detecting and explaining concept drift samples for security applications,\" in Proc. 30th USENIX Secur. Symp., Aug. 2021.",
+  "doi": "none",
+  "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/yang-limin",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2021,
+  "summary": "Trains a contrastive autoencoder to learn a distance metric in which samples from unseen families lie far from known-class centroids, and adds distance-based explanations of drifting samples. Evaluated on Android malware and network intrusion detection."
+ },
+ {
+  "id": 57,
+  "theme": "G",
+  "citation": "D. Han et al., \"Anomaly detection in the open world: Normality shift detection, explanation, and adaptation,\" in Proc. Netw. Distrib. Syst. Secur. Symp. (NDSS), San Diego, CA, USA, Feb. 2023.",
+  "doi": "10.14722/ndss.2023.24830",
+  "url": "https://api.crossref.org/works/10.14722/ndss.2023.24830",
+  "status": "VERIFIED",
+  "year": 2023,
+  "summary": "Proposes OWAD, which detects normality shift in deep anomaly detectors without labels, explains it, and adapts at the distribution level with little manual labelling. Evaluated on several security applications and an initial SCADA deployment."
+ },
+ {
+  "id": 58,
+  "theme": "G",
+  "citation": "Z. Zhao et al., \"FOSS: Towards fine-grained unknown class detection against the open-set attack spectrum with variable legitimate traffic,\" IEEE/ACM Trans. Netw., vol. 32, no. 5, pp. 3945-3960, Oct. 2024.",
+  "doi": "10.1109/TNET.2024.3413789",
+  "url": "https://api.openalex.org/works/doi:10.1109/TNET.2024.3413789",
+  "status": "VERIFIED",
+  "year": 2024,
+  "summary": "Proposes FOSS, an isolation-tree-based open-set NIDS that partitions the data distribution with hyperplanes to detect fine-grained unknown attack classes. Supports incremental updates as legitimate traffic changes."
+ },
+ {
+  "id": 59,
+  "theme": "G",
+  "citation": "C.-S. Shieh, F.-A. Ho, M.-F. Horng, T.-T. Nguyen, and P. Chakrabarti, \"Open-set recognition in unknown DDoS attacks detection with reciprocal points learning,\" IEEE Access, vol. 12, pp. 56461-56476, 2024.",
+  "doi": "10.1109/ACCESS.2024.3388149",
+  "url": "https://api.crossref.org/works/10.1109/ACCESS.2024.3388149",
+  "status": "VERIFIED",
+  "year": 2024,
+  "summary": "Combines a CNN with reciprocal points learning (CNN-RPL) to classify known DDoS traffic and reject unknown attacks. Trained on CIC-IDS2017 and tested against unseen attacks from CIC-DDoS2019."
+ },
+ {
+  "id": 60,
+  "theme": "G",
+  "citation": "J. Wu, H. Dai, K. B. Kent, J. Yen, C. Xu, and Y. Wang, \"Open set dandelion network for IoT intrusion detection,\" ACM Trans. Internet Technol., vol. 24, no. 1, pp. 1-26, 2024.",
+  "doi": "10.1145/3639822",
+  "url": "https://api.openalex.org/works/doi:10.1145/3639822",
+  "status": "VERIFIED",
+  "year": 2024,
+  "summary": "Uses open-set unsupervised heterogeneous domain adaptation to transfer intrusion knowledge from a labelled network domain to a data-scarce IoT domain while detecting target-domain intrusions unseen in the source. The model enforces intra-class compactness and inter-class separation in a 'dandelion' embedding space."
+ },
+ {
+  "id": 61,
+  "theme": "G",
+  "citation": "R. Ahmad, I. Alsmadi, W. Alhamdani, and L. Tawalbeh, \"Zero-day attack detection: A systematic literature review,\" Artif. Intell. Rev., vol. 56, no. 10, pp. 10733-10811, 2023.",
+  "doi": "10.1007/s10462-023-10437-z",
+  "url": "https://api.openalex.org/works/doi:10.1007/s10462-023-10437-z",
+  "status": "VERIFIED",
+  "year": 2023,
+  "summary": "Systematically reviews research on detecting zero-day attacks, categorising approaches (e.g., machine-learning and deep-learning, statistical and hybrid methods) and the data sets used. Summarises limitations and open research directions."
+ },
+ {
+  "id": 62,
+  "theme": "H",
+  "citation": "V. Vovk, A. Gammerman, and G. Shafer, Algorithmic Learning in a Random World, 2nd ed. Cham, Switzerland: Springer, 2022.",
+  "doi": "10.1007/978-3-031-06649-8",
+  "url": "https://api.crossref.org/works/10.1007/978-3-031-06649-8",
+  "status": "VERIFIED",
+  "year": 2022,
+  "summary": "The reference monograph on conformal prediction: transductive and inductive conformal predictors, conformal p-values, validity guarantees under exchangeability, and extensions such as Venn predictors and conformal testing."
+ },
+ {
+  "id": 63,
+  "theme": "H",
+  "citation": "A. N. Angelopoulos and S. Bates, \"Conformal prediction: A gentle introduction,\" Found. Trends Mach. Learn., vol. 16, no. 4, pp. 494-591, 2023.",
+  "doi": "10.1561/2200000101",
+  "url": "https://api.crossref.org/works/10.1561/2200000101",
+  "status": "VERIFIED",
+  "year": 2023,
+  "summary": "A tutorial on split conformal prediction and its extensions (adaptive and conditional coverage, conformal risk control, distribution shift, outlier detection) with worked examples and code."
+ },
+ {
+  "id": 64,
+  "theme": "H",
+  "citation": "A. N. Angelopoulos, S. Bates, A. Fisch, L. Lei, and T. Schuster, \"Conformal risk control,\" in Proc. Int. Conf. Learn. Represent. (ICLR), 2024.",
+  "doi": "none",
+  "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/f3549ef9b5ff520a7e41ff3cc306ab2b-Abstract-Conference.html",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2024,
+  "summary": "Extends split conformal prediction from miscoverage to controlling the expected value of any bounded, monotone loss (e.g., false negative rate) with finite-sample guarantees. Includes extensions to distribution shift."
+ },
+ {
+  "id": 65,
+  "theme": "H",
+  "citation": "S. Bates, E. Candès, L. Lei, Y. Romano, and M. Sesia, \"Testing for outliers with conformal p-values,\" Ann. Statist., vol. 51, no. 1, pp. 149-178, Feb. 2023.",
+  "doi": "10.1214/22-AOS2244",
+  "url": "https://api.crossref.org/works/10.1214/22-AOS2244",
+  "status": "VERIFIED",
+  "year": 2023,
+  "summary": "Shows that marginal conformal p-values for outlier detection are mutually dependent but positively dependent (PRDS), so Benjamini-Hochberg still controls the FDR. Proposes calibration-conditional conformal p-values that are valid conditional on the calibration set."
+ },
+ {
+  "id": 66,
+  "theme": "H",
+  "citation": "I. Gibbs and E. Candès, \"Adaptive conformal inference under distribution shift,\" in Proc. Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 34, 2021.",
+  "doi": "none",
+  "url": "https://proceedings.neurips.cc/paper/2021/hash/0d441de75945e5acbc865406fc9a2559-Abstract.html",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2021,
+  "summary": "Proposes adaptive conformal inference (ACI), which updates the working miscoverage level online from observed errors. It achieves the target long-run coverage under arbitrary distribution shift, with no assumptions on the data-generating process."
+ },
+ {
+  "id": 67,
+  "theme": "H",
+  "citation": "R. F. Barber, E. J. Candès, A. Ramdas, and R. J. Tibshirani, \"Conformal prediction beyond exchangeability,\" Ann. Statist., vol. 51, no. 2, pp. 816-845, Apr. 2023.",
+  "doi": "10.1214/23-AOS2276",
+  "url": "https://api.crossref.org/works/10.1214/23-AOS2276",
+  "status": "VERIFIED",
+  "year": 2023,
+  "summary": "Introduces weighted (nonexchangeable) conformal methods whose coverage loss is bounded by total-variation distances between the data and their swapped versions. This gives robustness guarantees under drift and other violations of exchangeability."
+ },
+ {
+  "id": 68,
+  "theme": "H",
+  "citation": "R. Jordaney et al., \"Transcend: Detecting concept drift in malware classification models,\" in Proc. 26th USENIX Secur. Symp., Aug. 2017.",
+  "doi": "none",
+  "url": "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/jordaney",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2017,
+  "summary": "Uses conformal evaluation (credibility and confidence derived from conformal p-values) to judge test samples against training data, flagging ageing malware classifiers before performance degrades. Demonstrated on Android and Windows malware."
+ },
+ {
+  "id": 69,
+  "theme": "H",
+  "citation": "F. Barbero, F. Pendlebury, F. Pierazzi, and L. Cavallaro, \"Transcending TRANSCEND: Revisiting malware classification in the presence of concept drift,\" in Proc. IEEE Symp. Secur. Privacy (S&P), May 2022, pp. 805-823.",
+  "doi": "10.1109/SP46214.2022.9833659",
+  "url": "https://api.openalex.org/works/doi:10.1109/SP46214.2022.9833659",
+  "status": "VERIFIED",
+  "year": 2022,
+  "summary": "Formalises conformal-evaluation-based rejection of drifting samples and introduces more efficient inductive and cross-conformal evaluators with automatic threshold calibration. Released as the Transcendent framework for malware classification under drift."
+ },
+ {
+  "id": 70,
+  "theme": "H",
+  "citation": "Y. Romano, M. Sesia, and E. J. Candès, \"Classification with valid and adaptive coverage,\" in Proc. Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 33, 2020.",
+  "doi": "none",
+  "url": "https://proceedings.neurips.cc/paper/2020/hash/244edd7e85dc81602b7615cd705545f5-Abstract.html",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2020,
+  "summary": "Introduces Adaptive Prediction Sets (APS), a conformal score built from cumulative sorted class probabilities with randomisation. It gives marginal coverage while approximating conditional coverage, producing set sizes that adapt to input difficulty."
+ },
+ {
+  "id": 71,
+  "theme": "H",
+  "citation": "A. N. Massaad, A. Avdalović, P. Andras, J. Khoury, and E. Bou-Harb, \"Beyond arbitrary thresholds: Conformal prediction for trustworthy CAN bus intrusion detection,\" in Proc. IEEE Int. Conf. Commun. (ICC), May 2026, pp. 1-6.",
+  "doi": "10.1109/ICC59461.2026.11587647",
+  "url": "https://api.crossref.org/works/10.1109/ICC59461.2026.11587647",
+  "status": "VERIFIED",
+  "year": 2026,
+  "summary": "Reinterprets percentile-based reconstruction-error thresholds as conformal calibration under exchangeability, framing intrusion alarms as tests for distributional shift. Proposes online recalibration with adaptive thresholds for benign drift, evaluated on the HCRL Car-Hacking data set."
+ },
+ {
+  "id": 72,
+  "theme": "H",
+  "citation": "S. Barrett, G. Dorai, L. Li, and S. Rajaganapathy, \"FADES: Adaptive drift estimation via conformal signals for streaming intrusion detection,\" Electronics, vol. 15, no. 10, Art. no. 2114, May 2026.",
+  "doi": "10.3390/electronics15102114",
+  "url": "https://api.crossref.org/works/10.3390/electronics15102114",
+  "status": "VERIFIED",
+  "year": 2026,
+  "summary": "Integrates conformal evaluation, including an approximate cross-conformal evaluator, with adaptive chunking for drift monitoring and retraining in streaming IDS, and compares it with representation-space detection (CADE). Evaluated on UNSW-NB15, CICIDS2018 and an IoT testbed across many repeated simulations."
+ },
+ {
+  "id": 73,
+  "theme": "I",
+  "citation": "J. Gama, I. Žliobaitė, A. Bifet, M. Pechenizkiy, and A. Bouchachia, \"A survey on concept drift adaptation,\" ACM Comput. Surv., vol. 46, no. 4, pp. 1-37, Mar. 2014.",
+  "doi": "10.1145/2523813",
+  "url": "https://api.openalex.org/works/doi:10.1145/2523813",
+  "status": "VERIFIED",
+  "year": 2014,
+  "summary": "Surveys adaptive learning under concept drift, organising methods by memory management, change detection, learning and loss estimation. Also covers evaluation methodology and applications."
+ },
+ {
+  "id": 74,
+  "theme": "I",
+  "citation": "J. Lu, A. Liu, F. Dong, F. Gu, J. Gama, and G. Zhang, \"Learning under concept drift: A review,\" IEEE Trans. Knowl. Data Eng., vol. 31, no. 12, pp. 2346-2363, Dec. 2019.",
+  "doi": "10.1109/TKDE.2018.2876857",
+  "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1109/TKDE.2018.2876857",
+  "status": "VERIFIED",
+  "year": 2019,
+  "summary": "Reviews concept drift research within a framework of drift detection, drift understanding (when, how and where) and drift adaptation. Lists evaluation systems and benchmark data sets."
+ },
+ {
+  "id": 75,
+  "theme": "I",
+  "citation": "A. Bifet and R. Gavaldà, \"Learning from time-changing data with adaptive windowing,\" in Proc. SIAM Int. Conf. Data Mining (SDM), Apr. 2007, pp. 443-448.",
+  "doi": "10.1137/1.9781611972771.42",
+  "url": "https://api.openalex.org/works/doi:10.1137/1.9781611972771.42",
+  "status": "VERIFIED",
+  "year": 2007,
+  "summary": "Proposes ADWIN, an adaptive sliding window that drops older data whenever two sub-windows have statistically different means. It provides rigorous false-positive and false-negative bounds for change detection."
+ },
+ {
+  "id": 76,
+  "theme": "I",
+  "citation": "A. Gretton, K. M. Borgwardt, M. J. Rasch, B. Schölkopf, and A. Smola, \"A kernel two-sample test,\" J. Mach. Learn. Res., vol. 13, pp. 723-773, 2012.",
+  "doi": "none",
+  "url": "https://www.jmlr.org/papers/v13/gretton12a.html",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2012,
+  "summary": "Defines the maximum mean discrepancy (MMD) between distributions embedded in a reproducing kernel Hilbert space. Develops two-sample tests based on unbiased and linear-time MMD estimators with large-deviation and asymptotic thresholds."
+ },
+ {
+  "id": 77,
+  "theme": "I",
+  "citation": "J. Kirkpatrick et al., \"Overcoming catastrophic forgetting in neural networks,\" Proc. Natl. Acad. Sci. USA, vol. 114, no. 13, pp. 3521-3526, Mar. 2017.",
+  "doi": "10.1073/pnas.1611835114",
+  "url": "https://api.openalex.org/works/doi:10.1073/pnas.1611835114",
+  "status": "VERIFIED",
+  "year": 2017,
+  "summary": "Proposes elastic weight consolidation (EWC), which slows learning on weights important to earlier tasks via a quadratic penalty weighted by the Fisher information. This mitigates catastrophic forgetting in sequential supervised and reinforcement learning."
+ },
+ {
+  "id": 78,
+  "theme": "I",
+  "citation": "S.-A. Rebuffi, A. Kolesnikov, G. Sperl, and C. H. Lampert, \"iCaRL: Incremental classifier and representation learning,\" in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Jul. 2017, pp. 5533-5542.",
+  "doi": "10.1109/CVPR.2017.587",
+  "url": "https://api.openalex.org/works/doi:10.1109/CVPR.2017.587",
+  "status": "VERIFIED",
+  "year": 2017,
+  "summary": "Class-incremental learning that keeps a herding-selected exemplar memory per class, trains with knowledge distillation, and classifies with a nearest-mean-of-exemplars rule."
+ },
+ {
+  "id": 79,
+  "theme": "I",
+  "citation": "P. Buzzega, M. Boschini, A. Porrello, D. Abati, and S. Calderara, \"Dark experience for general continual learning: A strong, simple baseline,\" in Proc. Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 33, 2020.",
+  "doi": "none",
+  "url": "https://proceedings.nips.cc/paper_files/paper/2020/file/b704ea2c39778f07c617f6b7ce480e9e-Paper.pdf",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2020,
+  "summary": "Proposes Dark Experience Replay (DER/DER++), which stores past samples with the network's logits in a reservoir buffer and replays them with logit-matching (and label) losses. A strong baseline for task-agnostic continual learning."
+ },
+ {
+  "id": 80,
+  "theme": "I",
+  "citation": "D. Rolnick, A. Ahuja, J. Schwarz, T. Lillicrap, and G. Wayne, \"Experience replay for continual learning,\" in Proc. Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 32, 2019.",
+  "doi": "none",
+  "url": "https://mlanthology.org/neurips/2019/rolnick2019neurips-experience",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2019,
+  "summary": "Proposes CLEAR, which mixes on-policy learning with off-policy replay of past experience plus behavioural cloning. It largely prevents catastrophic forgetting in multi-task reinforcement learning without task boundaries."
+ },
+ {
+  "id": 81,
+  "theme": "I",
+  "citation": "L. Wang, X. Zhang, H. Su, and J. Zhu, \"A comprehensive survey of continual learning: Theory, method and application,\" IEEE Trans. Pattern Anal. Mach. Intell., vol. 46, no. 8, pp. 5362-5383, Aug. 2024.",
+  "doi": "10.1109/TPAMI.2024.3367329",
+  "url": "https://api.openalex.org/works/doi:10.1109/TPAMI.2024.3367329",
+  "status": "VERIFIED",
+  "year": 2024,
+  "summary": "Surveys continual learning in terms of the stability-plasticity trade-off and generalisability. Categorises regularisation-, replay-, optimisation-, representation- and architecture-based methods and discusses applications."
+ },
+ {
+  "id": 82,
+  "theme": "I",
+  "citation": "G. Andresini, F. Pendlebury, F. Pierazzi, C. Loglisci, A. Appice, and L. Cavallaro, \"INSOMNIA: Towards concept-drift robustness in network intrusion detection,\" in Proc. 14th ACM Workshop Artif. Intell. Secur. (AISec), Nov. 2021, pp. 111-122.",
+  "doi": "10.1145/3474369.3486864",
+  "url": "https://api.openalex.org/works/doi:10.1145/3474369.3486864",
+  "status": "VERIFIED",
+  "year": 2021,
+  "summary": "A semi-supervised NIDS that updates the model under drift using active learning to cut labelling cost and label estimation for unlabelled traffic, with explainable-AI analysis of how features shift. Evaluated with temporal (time-aware) splits."
+ },
+ {
+  "id": 83,
+  "theme": "I",
+  "citation": "S. K. Amalapuram, S. Channappayya, and B. R. Tamma, \"Augmented memory replay-based continual learning approaches for network intrusion detection,\" in Proc. Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 36, 2023.",
+  "doi": "none",
+  "url": "https://papers.neurips.cc/paper_files/paper/2023/hash/3755a02b1035fbadd5f93a022170e46f-Abstract-Conference.html",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2023,
+  "summary": "Extends class-balancing reservoir sampling to handle severe class imbalance in replay-based continual NIDS, and proposes PAPA, a Gaussian-mixture-based way to cut the cost of retrieving maximally interfered samples. Reports better accuracy and 12-40% training-time savings over the MIR baseline."
+ },
+ {
+  "id": 84,
+  "theme": "I",
+  "citation": "X. Zhang et al., \"Continual learning with strategic selection and forgetting for network intrusion detection,\" in Proc. IEEE Conf. Comput. Commun. (INFOCOM), May 2025, pp. 1-10.",
+  "doi": "10.1109/INFOCOM55648.2025.11044615",
+  "url": "https://api.crossref.org/works/10.1109/INFOCOM55648.2025.11044615",
+  "status": "VERIFIED",
+  "year": 2025,
+  "summary": "Proposes SSF, a continual NIDS that refreshes a memory buffer by selecting new samples that reflect drift and discarding outdated ones when significant drift is detected. Reports state-of-the-art results on NSL-KDD and UNSW-NB15."
+ },
+ {
+  "id": 85,
+  "theme": "I",
+  "citation": "S. Yang, X. Zheng, J. Li, J. Xu, X. Wang, and E. C. H. Ngai, \"ReCDA: Concept drift adaptation with representation enhancement for network intrusion detection,\" in Proc. 30th ACM SIGKDD Conf. Knowl. Discovery Data Mining (KDD), Aug. 2024, pp. 3818-3828.",
+  "doi": "10.1145/3637528.3672007",
+  "url": "https://hit.globalimpact.cn/en/publications/recda-concept-drift-adaptation-with-representation-enhancement-fo/",
+  "status": "VERIFIED",
+  "year": 2024,
+  "summary": "A two-stage drift-adaptation method for NIDS: drift-aware self-supervised representation learning first, then classifier fine-tuning with limited labels. This reduces reliance on manual labelling of drifted traffic."
+ },
+ {
+  "id": 86,
+  "theme": "I",
+  "citation": "Y. Chen, Z. Ding, and D. Wagner, \"Continuous learning for Android malware detection,\" in Proc. 32nd USENIX Secur. Symp., Aug. 2023.",
+  "doi": "none",
+  "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/chen-yizheng",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2023,
+  "summary": "Proposes continuous learning for drifting malware: hierarchical contrastive learning combined with an uncertainty-based (pseudo-loss) sample selector for active learning. It substantially reduces false negatives under concept drift with a small labelling budget."
+ },
+ {
+  "id": 87,
+  "theme": "J",
+  "citation": "C. Guo, G. Pleiss, Y. Sun, and K. Q. Weinberger, \"On calibration of modern neural networks,\" in Proc. 34th Int. Conf. Mach. Learn. (ICML), PMLR vol. 70, 2017, pp. 1321-1330.",
+  "doi": "none",
+  "url": "https://proceedings.mlr.press/v70/guo17a.html",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2017,
+  "summary": "Shows that modern deep networks are poorly calibrated, with depth, width, batch normalisation and weight decay as contributing factors. Temperature scaling, a single-parameter post-hoc method, is found highly effective."
+ },
+ {
+  "id": 88,
+  "theme": "J",
+  "citation": "M. P. Naeini, G. F. Cooper, and M. Hauskrecht, \"Obtaining well calibrated probabilities using Bayesian binning,\" in Proc. AAAI Conf. Artif. Intell., vol. 29, no. 1, Feb. 2015, pp. 2901-2907.",
+  "doi": "10.1609/aaai.v29i1.9602",
+  "url": "https://api.openalex.org/works/doi:10.1609/aaai.v29i1.9602",
+  "status": "VERIFIED",
+  "year": 2015,
+  "summary": "Proposes Bayesian Binning into Quantiles (BBQ), a post-hoc calibration method that averages over multiple binning models. Introduces the expected and maximum calibration error (ECE/MCE) measures."
+ },
+ {
+  "id": 89,
+  "theme": "J",
+  "citation": "G. W. Brier, \"Verification of forecasts expressed in terms of probability,\" Mon. Weather Rev., vol. 78, no. 1, pp. 1-3, Jan. 1950.",
+  "doi": "10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2",
+  "url": "https://api.openalex.org/works/doi:10.1175/1520-0493(1950)078%3C0001:VOFEIT%3E2.0.CO;2",
+  "status": "VERIFIED",
+  "year": 1950,
+  "summary": "Proposes the Brier score, the mean squared difference between forecast probabilities and observed binary outcomes, as a verification measure for probabilistic forecasts."
+ },
+ {
+  "id": 90,
+  "theme": "J",
+  "citation": "B. Lakshminarayanan, A. Pritzel, and C. Blundell, \"Simple and scalable predictive uncertainty estimation using deep ensembles,\" in Proc. Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 30, 2017, pp. 6402-6413.",
+  "doi": "none",
+  "url": "https://proceedings.neurips.cc/paper/2017/hash/9ef2ed4b7fd2c810847ffa5fa85bce38-Abstract.html",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2017,
+  "summary": "Estimates predictive uncertainty by training an ensemble of randomly initialised networks with proper scoring rules (and optional adversarial training). The ensembles give well-calibrated uncertainty and better behaviour under dataset shift than approximate Bayesian baselines."
+ },
+ {
+  "id": 91,
+  "theme": "K",
+  "citation": "L. Breiman, \"Random forests,\" Mach. Learn., vol. 45, no. 1, pp. 5-32, Oct. 2001.",
+  "doi": "10.1023/A:1010933404324",
+  "url": "https://api.openalex.org/works/doi:10.1023/A:1010933404324",
+  "status": "VERIFIED",
+  "year": 2001,
+  "summary": "Introduces random forests: ensembles of trees grown on bootstrap samples with random feature subsets at each split. Analyses generalisation error via tree strength and correlation, and provides out-of-bag estimates and variable importance."
+ },
+ {
+  "id": 92,
+  "theme": "K",
+  "citation": "T. Chen and C. Guestrin, \"XGBoost: A scalable tree boosting system,\" in Proc. 22nd ACM SIGKDD Int. Conf. Knowl. Discovery Data Mining (KDD), Aug. 2016, pp. 785-794.",
+  "doi": "10.1145/2939672.2939785",
+  "url": "https://api.openalex.org/works/doi:10.1145/2939672.2939785",
+  "status": "VERIFIED",
+  "year": 2016,
+  "summary": "Presents XGBoost, a regularised gradient tree boosting system with a sparsity-aware split-finding algorithm, weighted quantile sketch, and cache- and out-of-core-aware design for scalability."
+ },
+ {
+  "id": 93,
+  "theme": "K",
+  "citation": "G. Ke et al., \"LightGBM: A highly efficient gradient boosting decision tree,\" in Proc. Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 30, 2017, pp. 3146-3154.",
+  "doi": "none",
+  "url": "https://proceedings.neurips.cc/paper/2017/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2017,
+  "summary": "Speeds up gradient boosting with Gradient-based One-Side Sampling (GOSS), which keeps large-gradient instances, and Exclusive Feature Bundling (EFB), which merges mutually exclusive sparse features. Accuracy is comparable to other GBDT implementations."
+ },
+ {
+  "id": 94,
+  "theme": "K",
+  "citation": "Y. Gorishniy, I. Rubachev, V. Khrulkov, and A. Babenko, \"Revisiting deep learning models for tabular data,\" in Proc. Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 34, 2021.",
+  "doi": "none",
+  "url": "https://neurips.cc/virtual/2021/poster/26866",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2021,
+  "summary": "Benchmarks deep tabular models and proposes strong baselines: a ResNet-like MLP and FT-Transformer, which tokenises each feature before a Transformer. Finds no universal winner between GBDT and deep models."
+ },
+ {
+  "id": 95,
+  "theme": "K",
+  "citation": "F. T. Liu, K. M. Ting, and Z.-H. Zhou, \"Isolation forest,\" in Proc. 8th IEEE Int. Conf. Data Mining (ICDM), Dec. 2008, pp. 413-422.",
+  "doi": "10.1109/ICDM.2008.17",
+  "url": "https://api.crossref.org/works/10.1109/ICDM.2008.17",
+  "status": "VERIFIED",
+  "year": 2008,
+  "summary": "Detects anomalies by isolating points with random axis-parallel splits; anomalies have shorter average path lengths in an ensemble of isolation trees. Runs in linear time with low memory."
+ },
+ {
+  "id": 96,
+  "theme": "K",
+  "citation": "L. Ruff et al., \"Deep one-class classification,\" in Proc. 35th Int. Conf. Mach. Learn. (ICML), PMLR vol. 80, 2018, pp. 4393-4402.",
+  "doi": "none",
+  "url": "https://proceedings.mlr.press/v80/ruff18a.html",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2018,
+  "summary": "Proposes Deep SVDD, which trains a network to map normal data into a minimum-volume hypersphere in feature space. Anomaly scores are distances from the hypersphere centre."
+ },
+ {
+  "id": 97,
+  "theme": "K",
+  "citation": "J. Demšar, \"Statistical comparisons of classifiers over multiple data sets,\" J. Mach. Learn. Res., vol. 7, pp. 1-30, 2006.",
+  "doi": "none",
+  "url": "https://www.jmlr.org/papers/v7/demsar06a.html",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2006,
+  "summary": "Recommends non-parametric tests for comparing classifiers across data sets: the Wilcoxon signed-rank test for two classifiers, and the Friedman test with Nemenyi or similar post-hoc tests (with critical-difference diagrams) for several."
+ },
+ {
+  "id": 98,
+  "theme": "K",
+  "citation": "S. Holm, \"A simple sequentially rejective multiple test procedure,\" Scand. J. Statist., vol. 6, no. 2, pp. 65-70, 1979.",
+  "doi": "none",
+  "url": "https://www.jstor.org/stable/4615733",
+  "status": "VERIFIED-NO-DOI",
+  "year": 1979,
+  "summary": "Introduces the Holm step-down procedure, which tests ordered p-values against progressively less strict Bonferroni-type thresholds. It controls the family-wise error rate and is uniformly more powerful than the Bonferroni correction."
+ },
+ {
+  "id": 99,
+  "theme": "K",
+  "citation": "D. P. Kingma and J. Ba, \"Adam: A method for stochastic optimization,\" in Proc. Int. Conf. Learn. Represent. (ICLR), 2015. [Online]. Available: arXiv:1412.6980",
+  "doi": "none",
+  "url": "https://arxiv.org/abs/1412.6980",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2015,
+  "summary": "Proposes Adam, a first-order stochastic optimiser with per-parameter adaptive learning rates from bias-corrected estimates of the first and second gradient moments. Includes a convergence analysis and the AdaMax variant."
+ },
+ {
+  "id": 100,
+  "theme": "K",
+  "citation": "J. Snell, K. Swersky, and R. Zemel, \"Prototypical networks for few-shot learning,\" in Proc. Adv. Neural Inf. Process. Syst. (NeurIPS), vol. 30, 2017, pp. 4077-4087.",
+  "doi": "none",
+  "url": "https://mlanthology.org/neurips/2017/snell2017neurips-prototypical",
+  "status": "VERIFIED-NO-DOI",
+  "year": 2017,
+  "summary": "Learns an embedding in which each class is represented by the mean (prototype) of its support embeddings, and classifies queries by distance to prototypes (squared Euclidean). Simple and effective for few- and zero-shot classification."
+ },
+ {
+  "id": 101,
+  "theme": "K",
+  "year": 2019,
+  "citation": "I. Loshchilov and F. Hutter, \"Decoupled weight decay regularization,\" in Proc. Int. Conf. Learn. Represent. (ICLR), 2019. [Online]. Available: https://openreview.net/forum?id=Bkg6RiCqY7",
+  "doi": "none",
+  "url": "https://openreview.net/forum?id=Bkg6RiCqY7",
+  "status": "VERIFIED-NO-DOI",
+  "summary": "Decouples weight decay from the gradient-based update in adaptive optimizers (AdamW), improving generalization of Adam-trained networks."
+ },
+ {
+  "id": 102,
+  "theme": "K",
+  "year": 2019,
+  "citation": "L. N. Smith and N. Topin, \"Super-convergence: Very fast training of neural networks using large learning rates,\" in Proc. SPIE 11006, Artif. Intell. Mach. Learn. Multi-Domain Oper. Appl., May 2019, Art. no. 1100612.",
+  "doi": "10.1117/12.2520589",
+  "url": "https://doi.org/10.1117/12.2520589",
+  "status": "VERIFIED",
+  "summary": "Shows that a one-cycle learning-rate policy with large maximum rates trains networks in far fewer iterations."
+ }
+]

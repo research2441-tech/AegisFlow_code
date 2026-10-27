@@ -1,0 +1,123 @@
+{
+ "B-train": {
+  "n": 686055,
+  "hours": 5.999722222222222,
+  "counts": {
+   "Normal": 536961,
+   "Analysis": 1132,
+   "Backdoor": 749,
+   "DoS": 7218,
+   "Exploits": 19661,
+   "Fuzzers": 9066,
+   "Generic": 104740,
+   "Reconnaissance": 5833,
+   "Shellcode": 623,
+   "Worms": 72
+  },
+  "n_src": 40,
+  "n_dst": 45
+ },
+ "B-cal": {
+  "n": 180372,
+  "hours": 1.4997222222222222,
+  "counts": {
+   "Normal": 148147,
+   "Analysis": 264,
+   "Backdoor": 316,
+   "DoS": 2591,
+   "Exploits": 5472,
+   "Fuzzers": 2639,
+   "Generic": 18855,
+   "Reconnaissance": 1893,
+   "Shellcode": 174,
+   "Worms": 21
+  },
+  "n_src": 37,
+  "n_dst": 41
+ },
+ "B-test": {
+  "n": 586417,
+  "hours": 4.461111111111111,
+  "counts": {
+   "Normal": 468668,
+   "Analysis": 755,
+   "Backdoor": 730,
+   "DoS": 5377,
+   "Exploits": 13983,
+   "Fuzzers": 7490,
+   "Generic": 84364,
+   "Reconnaissance": 4502,
+   "Shellcode": 491,
+   "Worms": 57
+  },
+  "n_src": 38,
+  "n_dst": 43
+ },
+ "A-source(0-4h)": {
+  "n": 346980,
+  "hours": 3.999722222222222,
+  "counts": {
+   "Normal": 324765,
+   "Analysis": 526,
+   "Backdoor": 534,
+   "DoS": 1167,
+   "Exploits": 5409,
+   "Fuzzers": 5051,
+   "Generic": 7522,
+   "Reconnaissance": 1759,
+   "Shellcode": 223,
+   "Worms": 24
+  },
+  "n_src": 39,
+  "n_dst": 42
+ },
+ "B-stream": {
+  "n": 1452844,
+  "hours": 11.96111111111111,
+  "counts": {
+   "Normal": 1153776,
+   "Analysis": 2151,
+   "Backdoor": 1795,
+   "DoS": 15186,
+   "Exploits": 39116,
+   "Fuzzers": 19195,
+   "Generic": 207959,
+   "Reconnaissance": 12228,
+   "Shellcode": 1288,
+   "Worms": 150
+  },
+  "n_src": 41,
+  "n_dst": 45
+ },
+ "A-all": {
+  "n": 1087203,
+  "hours": 12.596388888888889,
+  "counts": {
+   "Normal": 1064988,
+   "Analysis": 526,
+   "Backdoor": 534,
+   "DoS": 1167,
+   "Exploits": 5409,
+   "Fuzzers": 5051,
+   "Generic": 7522,
+   "Reconnaissance": 1759,
+   "Shellcode": 223,
+   "Worms": 24
+  },
+  "n_src": 40,
+  "n_dst": 44
+ },
+ "conflict_frac_train_attack": 0.12221149073738716,
+ "conflict_by_class": {
+  "Analysis": 0.7164310954063604,
+  "Backdoor": 0.8090787716955942,
+  "DoS": 0.7880299251870324,
+  "Exploits": 0.42001932760286864,
+  "Fuzzers": 0.09849988969777189,
+  "Generic": 0.009366049264846287,
+  "Reconnaissance": 0.16680953197325563,
+  "Shellcode": 0.006420545746388443,
+  "Worms": 0.09722222222222222
+ },
+ "dup_frac_train_attack": 0.8385917609025179
+}
